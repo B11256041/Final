@@ -60,14 +60,12 @@
             font-size: 12px;
             padding: 15px;
         }
-        /* For mobile phones: */
         
         [class*="col-"] {
             width: 100%;
         }
         
         @media only screen and (min-width: 600px) {
-            /* For tablets: */
             .col-s-1 {
                 width: 8.33%;
             }
@@ -107,7 +105,6 @@
         }
         
         @media only screen and (min-width: 768px) {
-            /* For desktop: */
             .col-1 {
                 width: 8.33%;
             }
@@ -174,7 +171,7 @@
             }
             document.getElementById(contentId).style.display = 'block';
 
-            // Show respective image if contentId matches
+
             if (contentId === 'history') {
                 document.getElementById('history-img').style.display = 'block';
             } else if (contentId === 'city') {
@@ -285,7 +282,6 @@
             }
             document.getElementById(contentId).style.display = 'block';
 
-            // Show respective image if contentId matches
             if (contentId === 'history') {
                 document.getElementById('history-img').style.display = 'block';
             } else if (contentId === 'city') {
